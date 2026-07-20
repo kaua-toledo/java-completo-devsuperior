@@ -1,4 +1,4 @@
-package entities;
+package Rectangle.application.entities;
 
 public class Rectangle {
 

@@ -1,13 +1,11 @@
-package application;
+package Student.application;
 
-import entities.Student;
+import Student.application.entities.Student;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Student;
-
-public class ProgramStudent {
+public class Program {
 
     public static void main(String[] args) {
 

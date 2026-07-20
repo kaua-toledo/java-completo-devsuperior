@@ -1,4 +1,4 @@
-package entities;
+package Student.application.entities;
 
 public class Student {
 

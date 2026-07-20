@@ -1,11 +1,11 @@
-package application;
+package Rectangle.application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Rectangle;
+import Rectangle.application.entities.Rectangle;
 
-public class ProgramRectangle {
+public class Program {
 
     public static void main(String[] args) {
 

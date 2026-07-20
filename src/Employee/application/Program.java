@@ -1,11 +1,11 @@
-package application;
+package Employee.application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Employee;
+import Employee.application.entities.Employee;
 
-public class ProgramEmployee {
+public class Program {
 
     public static void main(String[] args) {
 

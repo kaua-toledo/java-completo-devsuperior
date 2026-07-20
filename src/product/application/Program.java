@@ -1,11 +1,11 @@
-package application;
+package product.application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Product;
+import product.application.entities.Product;
 
-public class ProgramProduct {
+public class Program {
 
     public static void main(String[] args) {
 
