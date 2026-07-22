@@ -7,12 +7,11 @@ public class Product {
     public int quantity;
 
     /**
-     * Parameterized Constructor
-     * Initializes a new Product instance with explicit values
+     * Creates a Product object with the specified name, price and quantity.
      *
-     * @param name     The name of the product
-     * @param price    The unit price of the product
-     * @param quantity The initial quantity in stock
+     * @param name     product name
+     * @param price    product unit price
+     * @param quantity initial stock quantity
      */
     public Product(String name, double price, int quantity) {
         // 'this' distinguishes the class fields from the local parameter
@@ -21,10 +20,9 @@ public class Product {
         this.quantity = quantity;
     }
 
-    // // Overloaded constructor
+    // Overloaded constructor with default quantity
     public Product(String name, double price) {
-        this.name = name;
-        this.price = price;
+        this(name, price, 0);
     }
 
     public double totalValueInStock() {
@@ -47,7 +45,7 @@ public class Product {
                 + ", "
                 + quantity
                 + " Units, "
-                + "Total: "
+                + "Total: $"
                 + String.format("%.2f", totalValueInStock());
     }
 }

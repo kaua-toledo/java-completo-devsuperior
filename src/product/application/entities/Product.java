@@ -10,14 +10,15 @@ public class Product {
         return price * quantity;
     }
 
-    public int addProducts(int quantity) {
-        return this.quantity += quantity;
+    public void addProducts(int quantity) {
+        this.quantity += quantity;
     }
 
-    public int removeProducts(int quantity) {
-        return this.quantity -= quantity;
+    public void removeProducts(int quantity) {
+        this.quantity -= quantity;
     }
 
+    @Override
     public String toString() {
         return name
                 + ", $ "
@@ -25,7 +26,7 @@ public class Product {
                 + ", "
                 + quantity
                 + " Units, "
-                + "Total: "
+                + "Total: $"
                 + String.format("%.2f", totalValueInStock());
     }
 }
