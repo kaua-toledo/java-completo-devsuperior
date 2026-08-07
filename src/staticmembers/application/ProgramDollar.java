@@ -1,7 +1,7 @@
 package staticmembers.application;
 
 
-import staticmembers.application.util.CurrencyConverter;
+import staticmembers.util.CurrencyConverter;
 
 import java.util.Locale;
 import java.util.Scanner;

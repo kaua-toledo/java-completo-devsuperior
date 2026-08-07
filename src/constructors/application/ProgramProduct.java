@@ -1,6 +1,6 @@
 package constructors.application;
 
-import constructors.application.entities.Product;
+import constructors.entities.Product;
 
 import java.util.Locale;
 import java.util.Scanner;

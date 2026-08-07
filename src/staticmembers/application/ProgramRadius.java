@@ -1,6 +1,6 @@
 package staticmembers.application;
 
-import staticmembers.application.util.Calculator;
+import staticmembers.util.Calculator;
 
 import java.util.Locale;
 import java.util.Scanner;

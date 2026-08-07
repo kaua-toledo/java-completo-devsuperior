@@ -3,7 +3,7 @@ package employee.application;
 import java.util.Locale;
 import java.util.Scanner;
 
-import employee.application.entities.Employee;
+import employee.entities.Employee;
 
 public class Program {
 

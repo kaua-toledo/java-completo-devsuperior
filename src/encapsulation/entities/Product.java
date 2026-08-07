@@ -1,4 +1,4 @@
-package encapsulation.application.entities;
+package encapsulation.entities;
 
 public class Product {
 

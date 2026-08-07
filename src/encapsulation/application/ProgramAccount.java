@@ -1,11 +1,11 @@
-package application;
+package encapsulation.application;
 
-import application.entities.Account;
+import encapsulation.entities.Account;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Program {
+public class ProgramAccount {
 
     public static void main(String[] args) {
 

@@ -1,4 +1,4 @@
-package application.entities;
+package encapsulation.entities;
 
 public class Account {
 

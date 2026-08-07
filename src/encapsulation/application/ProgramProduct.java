@@ -1,11 +1,11 @@
 package encapsulation.application;
 
-import encapsulation.application.entities.Product;
+import encapsulation.entities.Product;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Program {
+public class ProgramProduct {
 
     public static void main(String[] args) {
 

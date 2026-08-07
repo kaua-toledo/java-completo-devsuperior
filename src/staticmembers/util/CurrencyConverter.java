@@ -1,4 +1,4 @@
-package staticmembers.application.util;
+package staticmembers.util;
 
 public class CurrencyConverter {
 

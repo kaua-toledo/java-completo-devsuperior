@@ -3,7 +3,7 @@ package rectangle.application;
 import java.util.Locale;
 import java.util.Scanner;
 
-import rectangle.application.entities.Rectangle;
+import rectangle.entities.Rectangle;
 
 public class Program {
 
