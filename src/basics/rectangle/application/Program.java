@@ -1,9 +1,9 @@
-package rectangle.application;
+package basics.rectangle.application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import rectangle.entities.Rectangle;
+import basics.rectangle.entities.Rectangle;
 
 public class Program {
 

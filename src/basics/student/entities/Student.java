@@ -1,4 +1,4 @@
-package student.entities;
+package basics.student.entities;
 
 public class Student {
 

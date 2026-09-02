@@ -9,8 +9,8 @@ public class Product {
     /**
      * Creates a Product object with the specified name, price and quantity.
      *
-     * @param name     product name
-     * @param price    product unit price
+     * @param name     basics.product name
+     * @param price    basics.product unit price
      * @param quantity initial stock quantity
      */
     public Product(String name, double price, int quantity) {

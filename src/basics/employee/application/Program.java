@@ -1,9 +1,9 @@
-package employee.application;
+package basics.employee.application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import employee.entities.Employee;
+import basics.employee.entities.Employee;
 
 public class Program {
 

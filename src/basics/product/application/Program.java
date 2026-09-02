@@ -1,9 +1,9 @@
-package product.application;
+package basics.product.application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import product.entities.Product;
+import basics.product.entities.Product;
 
 public class Program {
 

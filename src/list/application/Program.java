@@ -38,7 +38,7 @@ public class Program {
             list.add(emp);
         }
 
-        System.out.print("\nEnter the employee id that will have salary increase: ");
+        System.out.print("\nEnter the basics.employee id that will have salary increase: ");
         int idSalary = sc.nextInt();
 
         Employee empId = list.stream().filter(x -> x.getId() == idSalary).findFirst().orElse(null);

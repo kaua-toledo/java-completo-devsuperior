@@ -1,4 +1,4 @@
-package employee.entities;
+package basics.employee.entities;
 
 public class Employee {
 
