@@ -1,4 +1,4 @@
-package matrix;
+package memory_and_lists.matrix;
 
 import java.util.Scanner;
 

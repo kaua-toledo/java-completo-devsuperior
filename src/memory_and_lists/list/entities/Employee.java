@@ -1,4 +1,4 @@
-package list.entities;
+package memory_and_lists.list.entities;
 
 public class Employee {
 

@@ -1,6 +1,6 @@
-package arrays.application;
+package memory_and_lists.arrays.application;
 
-import arrays.entities.Rent;
+import memory_and_lists.arrays.entities.Rent;
 
 import java.util.Locale;
 import java.util.Scanner;

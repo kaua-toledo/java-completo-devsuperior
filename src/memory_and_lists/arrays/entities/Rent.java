@@ -1,4 +1,4 @@
-package arrays.entities;
+package memory_and_lists.arrays.entities;
 
 public class Rent {
 

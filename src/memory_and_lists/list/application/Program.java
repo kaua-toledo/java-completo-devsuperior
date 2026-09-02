@@ -1,6 +1,6 @@
-package list.application;
+package memory_and_lists.list.application;
 
-import list.entities.Employee;
+import memory_and_lists.list.entities.Employee;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,12 +38,12 @@ public class Program {
             list.add(emp);
         }
 
-        System.out.print("\nEnter the basics.employee id that will have salary increase: ");
+        System.out.print("\nEnter the employee id that will have salary increase: ");
         int idSalary = sc.nextInt();
 
         Employee empId = list.stream().filter(x -> x.getId() == idSalary).findFirst().orElse(null);
 
-        //Integer pos = position(list, idSalary);
+        //Integer pos = position(memory_and_lists.list, idSalary);
 
 
         if (empId == null) {
@@ -54,7 +54,7 @@ public class Program {
 
             empId.increaseSalary(percentage);
 
-            //list.get(pos).increaseSalary(percentage);
+            //memory_and_lists.list.get(pos).increaseSalary(percentage);
         }
 
         System.out.println("\nList of Employees:");
