@@ -1,4 +1,4 @@
-package products.entities;
+package exercises.products.entities;
 
 public class ImportedProduct extends Product {
 

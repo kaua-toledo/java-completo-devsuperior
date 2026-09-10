@@ -1,8 +1,8 @@
-package products.application;
+package exercises.products.application;
 
-import products.entities.ImportedProduct;
-import products.entities.Product;
-import products.entities.UsedProduct;
+import exercises.products.entities.ImportedProduct;
+import exercises.products.entities.Product;
+import exercises.products.entities.UsedProduct;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

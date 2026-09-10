@@ -1,8 +1,8 @@
-package tax_payers.application;
+package exercises.tax_payers.application;
 
-import tax_payers.entities.Company;
-import tax_payers.entities.Individual;
-import tax_payers.entities.TaxPayer;
+import exercises.tax_payers.entities.Company;
+import exercises.tax_payers.entities.Individual;
+import exercises.tax_payers.entities.TaxPayer;
 
 import java.util.ArrayList;
 import java.util.List;

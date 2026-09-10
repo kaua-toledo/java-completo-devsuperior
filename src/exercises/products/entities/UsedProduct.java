@@ -1,4 +1,4 @@
-package products.entities;
+package exercises.products.entities;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
