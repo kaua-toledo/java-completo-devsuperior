@@ -57,7 +57,7 @@ public class Program {
             //memory_and_lists.list.get(pos).increaseSalary(percentage);
         }
 
-        System.out.println("\nList of Employees:");
+        System.out.println("\nList of employees:");
         for (Employee emp : list) {
             System.out.println(emp);
         }

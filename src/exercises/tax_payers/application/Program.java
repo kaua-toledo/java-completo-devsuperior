@@ -45,7 +45,7 @@ public class Program {
                     name = sc.nextLine();
                     System.out.print("Annual income: ");
                     annualIncome = sc.nextDouble();
-                    System.out.print("Number of Employees: ");
+                    System.out.print("Number of employees: ");
                     numberOfEmployees = sc.nextInt();
                     list.add(new Company(name, annualIncome, numberOfEmployees));
                     break;
