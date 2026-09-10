@@ -1,4 +1,4 @@
-package exercises.entities;
+package tax_payers.entities;
 
 public class Individual extends TaxPayer {
 
