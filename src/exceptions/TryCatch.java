@@ -13,13 +13,13 @@ public class TryCatch {
 
     }
 
-    public static void method1(){
+    public static void method1() {
         System.out.println("** Method 1 Start **");
         method2();
         System.out.println("** Method 1 End **");
     }
 
-    public static void method2(){
+    public static void method2() {
         System.out.println(" * Method 2 Start *");
         Scanner sc = new Scanner(System.in);
 
@@ -31,8 +31,7 @@ public class TryCatch {
             System.out.println("Invalid position!");
             e.printStackTrace();
             sc.next();
-        }
-        catch (InputMismatchException e) {
+        } catch (InputMismatchException e) {
             System.out.println("Input error!");
         }
 
