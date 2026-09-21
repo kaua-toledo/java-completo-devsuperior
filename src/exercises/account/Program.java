@@ -1,5 +1,6 @@
 package exercises.account;
 
+import exercises.account.entities.Account;
 import exercises.account.exceptions.BusinessException;
 
 import java.util.InputMismatchException;
